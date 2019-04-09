@@ -4,6 +4,7 @@
   "description": "chatting app via git",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/elamje/glack/issues"
   },
-  "homepage": "https://github.com/elamje/glack#readme"
+  "homepage": "https://github.com/elamje/glack#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "nodegit": "^0.24.1"
+  }
 }
