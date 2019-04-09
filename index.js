@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
     res.send('Glack is the future');
 });
 
+app.get('/new-chat', (req, res) => {
+    res.send('Create new git repo, redirect to chat screen');
+})
+
 app.listen(port, (req, res) => {
     console.log(`Server listening on port: ${port}`);
 });
