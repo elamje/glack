@@ -1,0 +1,19 @@
+{
+  "name": "glack",
+  "version": "1.0.0",
+  "description": "chatting app via git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elamje/glack.git"
+  },
+  "author": "Eric Nam, John Elam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elamje/glack/issues"
+  },
+  "homepage": "https://github.com/elamje/glack#readme"
+}
