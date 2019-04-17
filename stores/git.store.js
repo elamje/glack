@@ -1,6 +1,8 @@
 class GitStore
 {
-    // put git methods here (creat repo, commit, pull, push, etc)
+    static initRepo () {
+        
+    }
 }
 
 module.exports = GitStore;
